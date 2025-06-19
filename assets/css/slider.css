@@ -8,13 +8,13 @@
 
 .slider-bar {
     background-color: white;
-    box-shadow: 0 0 20px #0b4047;
+    /* box-shadow: 0 0 20px #AA0041; */
     display: flex;
     justify-content: center;
     align-items: center;
     flex-basis: 100rem;
-    border: 1px solid #0b4047;
-    border-radius: 100px;
+    border: 1px solid #AA0041;
+    border-radius: 10px;
     opacity: 100%;
     flex-wrap: wrap;
     display: flex;
@@ -33,7 +33,7 @@
 }
 
 .slider-teachers-maintitle {
-    color: #0b4047;
+    color: #AA0041;
     font-size: 3.6rem;
     font-weight: 600;
 }
@@ -78,7 +78,7 @@
     border: solid transparent;
     border-width: 0px;
     border-radius: 30px;
-    box-shadow: 0 0 10px #0b4047;
+    /* box-shadow: 0 0 10px #AA0041; */
 }
 .slide-image:hover {
     cursor: pointer;
@@ -146,7 +146,7 @@
     background-color: white;
     border: solid black;
     border-width: 1px;
-    border-radius: 100px;
+    border-radius: 10px;
 }
 
 .slider-info-button {

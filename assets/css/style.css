@@ -24,8 +24,8 @@ header {
     justify-content: space-between;
     position: fixed;
 	z-index: 1000;
-    border-bottom: 1px solid #0b4047;
-    box-shadow: 0 0 20px #0b4047;
+    border-bottom: 1px solid #AA0041;
+    /* box-shadow: 0 0 20px #AA0041; */
 }
 
 
@@ -185,14 +185,16 @@ main::after {
     transition: 1s;
 }
 
+/*
 .heading-maintitle span:hover {
     text-shadow: 0 0 5px white;
     transition: .2s;
 }
+*/
 
 .heading-button {
     margin-top: 10rem;
-    background-color: #0b4047;
+    background-color: #AA0041;
     color: white;
     font-size: 1.4rem;
     padding: 1.2rem 3.5rem;
@@ -203,8 +205,8 @@ main::after {
 
 .heading-button:hover {
     background-color: white;
-    color: #0b4047;
-    box-shadow: 0 0 12px #0b4047;
+    color: #AA0041;
+    /* box-shadow: 0 0 12px #AA0041; */
     transition: .2s ease-out;
     cursor: pointer;
 }
@@ -230,10 +232,10 @@ main::after {
 
     flex-basis: 100rem;
 
-    border: 1px solid #0b4047;
-    border-radius: 100px;
+    border: 1px solid #AA0041;
+    border-radius: 10px;
     opacity: 100%;
-    box-shadow: 0 0 20px #0b4047;
+    /* box-shadow: 0 0 20px #AA0041; */
 
     justify-content: center;
     align-items: center;
@@ -252,7 +254,7 @@ main::after {
 }
 
 .hs-maintitle {
-    color: #0b4047;
+    color: #AA0041;
     font-size: 3.6rem;
     font-weight: 600;
 }
@@ -310,7 +312,7 @@ main::after {
 }
 
 .hs-unit-title {
-    color: #0b4047;
+    color: #AA0041;
     flex-basis: 2rem;
     text-align: center;
     font-size: 1.5rem;
@@ -347,11 +349,11 @@ main::after {
     flex-basis: 100rem;
     min-height: 780px;
 
-    border: solid #0b4047;
+    border: solid #AA0041;
     border-width: 1px;
-    border-radius: 100px;
+    border-radius: 10px;
     opacity: 100%;
-    box-shadow: 0 0 20px #0b4047;
+    /* box-shadow: 0 0 20px #AA0041; */
 
     justify-content: center;
     align-items: center;
@@ -371,7 +373,7 @@ main::after {
 }
 
 .teach-maintitle {
-    color: #0b4047;
+    color: #AA0041;
     font-size: 3.6rem;
     font-weight: 600;
     margin: 10px 0px;
@@ -421,7 +423,7 @@ main::after {
 
 
 .faq-title:hover {
-    box-shadow: 0 0 12px #0b4047;
+    /* box-shadow: 0 0 12px #AA0041; */
     transition: .2s ease-out;
 }
 
@@ -447,7 +449,7 @@ main::after {
 .faq-inner-text {
     max-width: 880px;
     font-size: 1.2rem;
-    color: #0b4047;
+    color: #AA0041;
 }
 
 .faq-input:checked ~ .faq-text {
@@ -479,7 +481,7 @@ main::after {
 }
 
 .survay-maintitle {
-    color: #0b4047;
+    color: #AA0041;
     font-size: 1.5rem;
 }
 
