@@ -1,0 +1,44 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #AA0041;
+    height: 10rem;
+    flex-basis: 100rem;
+    color: white;
+    
+}
+
+.footer-copyrights-texts {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-basis: 100rem;
+    font-size: 1rem;
+    margin-left: 10%;
+    text-align: end;
+    margin-right: 2rem;
+    color: white;
+}
+
+.footer-logo {
+    max-width: 5rem;
+    margin-left: 2rem;
+    transition: .4s;
+}
+
+.footer-logo:hover {
+    transform: scale(1.1);
+    transition: .4s;
+}
+
+.footer-contacts {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100px;
+    font-size: 1rem;
+    text-align: center;
+    margin-left: 15rem;
+}
